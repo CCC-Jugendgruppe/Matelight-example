@@ -19,7 +19,7 @@ disp.set_pixel(2,5,255,0,0)
 disp.show() 
 
 # this is optional, it serves to make the effect visible for a few seconds
-time.sleep(2) 
+time.sleep(1) 
 
 # clears matelight display
 disp.clear()
@@ -30,14 +30,14 @@ disp.clear()
 draw.row(disp, 3, draw.green)
 
 disp.show()
-time.sleep(2)
+time.sleep(1)
 disp.clear()
 
 # Same as above, except that the 2nd argument provides the X-Coordinate.
 draw.col(disp, 4, draw.orange)
 
 disp.show()
-time.sleep(2)
+time.sleep(1)
 disp.clear()
 
 
@@ -49,25 +49,34 @@ Then the 1st y and the 2nd y.
 """
 draw.rect(disp, 8, 11, 7, 9, draw.yellow)
 disp.show()
-time.sleep(2)
+time.sleep(1)
 disp.clear()
 
 # This draws a point with polar Coordinates.
 draw.polarPoint(disp, 7, 3, 3, 4*2*np.pi/36, draw.magenta)
 disp.show()
-time.sleep(2)
+time.sleep(1)
 disp.clear()
 
 
 # Draws a line with defined start- and endpoint, given as x-start, x-end, y-start, y-end.
 draw.Line(disp, 14, 10, 14, 7, draw.skyblue)
 disp.show()
-time.sleep(2)
+time.sleep(1)
 disp.clear()
 
 
 # Draws a line with polar coordinates
 draw.polarLine(disp, 4, 4, 4, 3*2*np.pi/36, draw.lime)
 disp.show()
-time.sleep(10)
+time.sleep(1)
 disp.clear()
+
+
+# draws a circle that isn't filled with color.
+draw.circle_unfilled(disp, 8, 8, 5, draw.violet)
+disp.show()
+time.sleep(1)
+disp.clear()
+
+
