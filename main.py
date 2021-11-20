@@ -49,5 +49,11 @@ Then the 1st y and the 2nd y.
 """
 draw.rect(disp, 8, 11, 7, 9, draw.yellow)
 disp.show()
+time.sleep(2)
+disp.clear()
+
+# This draws a point with polar Coordinates.
+draw.polarPoint(disp, 7, 3, 3, 4*2*np.pi/36)
+disp.show()
 time.sleep(10)
 disp.clear()
