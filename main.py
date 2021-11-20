@@ -3,17 +3,51 @@ import ml_simulator.matelight as ml #We need to import the Matelightsimulator fo
 import time # time is needed, to display changes, so the effect doesn't just disappear when done.
 import numpy as np # numpy is needed for some math operations.
 
-#here the number of mate boxes is defined. (1 Box is 5x4, so here you get 15x16)
+# here the number of mate boxes is defined. (1 Box is 5x4, so here you get 15x16)
 disp = ml.Matelight(3,4) 
 
-#here a point is set at x2 and at y5. In addition, the color can be changed here, which is blue by default.
+"""
+Colors are set with the usual (red, green, blue) format, next to the (x, y) coordinates
+Alternatively, some colors can be set with words. These are located 
+at the top of the 'matelight/draw.py' file
+"""
+# here a point is set at x2 and at y5. In addition, the color can be changed here, which is blue 
+# by default and here set to red.
 disp.set_pixel(2,5,255,0,0)
 
-#this line is necessary for the matelight to display changes.
+# this line is necessary for the matelight to display changes.
 disp.show() 
 
-#this is optional, it serves to make the effect visible for a few seconds
-time.sleep(10) 
+# this is optional, it serves to make the effect visible for a few seconds
+time.sleep(2) 
 
 # clears matelight display
+disp.clear()
+
+# You can also draw a full row at once, where the first argument
+# is the Matelight-Display, the second the Y-Coordinate and the last
+# the color to paint the row in.
+draw.row(disp, 3, green)
+
+disp.show()
+time.sleep(2)
+disp.clear()
+
+# Same as above, except that the 2nd argument provides the X-Coordinate.
+draw.col(disp, 4, orange)
+
+disp.show()
+time.sleep(2)
+disp.clear()
+
+
+"""
+This draws a rectangle with the size of 4x3.
+the arguments after the Matelight-Display are 
+the 1st x coordinate and the 2nd x coordinate.
+Then the 1st y and the 2nd y.
+"""
+draw.rect(disp, 8, 11, 7, 9, draw.yellow)
+disp.show()
+time.sleep(10)
 disp.clear()
