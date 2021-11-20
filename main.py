@@ -9,3 +9,4 @@ disp = ml.Matelight(3,4) #here the number of mate boxes is defined. (1 Box is 5x
 disp.set_pixel(2,5,255,0,0) #here a point is set at x2 and at y5. In addition, the color can be changed here, which is blue by default.
 disp.show() #this line is necessary for the matelight to display changes.
 time.sleep(10) #this is optional, it serves to make the effect visible for a few seconds
+disp.clear()
