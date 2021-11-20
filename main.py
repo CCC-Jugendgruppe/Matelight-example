@@ -79,4 +79,8 @@ disp.show()
 time.sleep(1)
 disp.clear()
 
-
+# draws a circle that is filled with color.
+draw.circle_filled(disp, 8, 8, 4, draw.violet)
+disp.show()
+time.sleep(10)
+disp.clear()
