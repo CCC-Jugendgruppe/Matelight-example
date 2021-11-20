@@ -62,5 +62,12 @@ disp.clear()
 # Draws a line with defined start- and endpoint, given as x-start, x-end, y-start, y-end.
 draw.Line(disp, 14, 10, 14, 7, draw.skyblue)
 disp.show()
+time.sleep(2)
+disp.clear()
+
+
+# Draws a line with polar coordinates
+draw.polarLine(disp, 4, 4, 4, 3*2*np.pi/36, draw.lime)
+disp.show()
 time.sleep(10)
 disp.clear()
