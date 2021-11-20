@@ -7,6 +7,6 @@ A template to build effets for the [CCC](https://wiki.cccgoe.de/wiki/Hauptseite)
 - install tk `apt install python-tk`
 - install numpy `pip install numpy`
 
-## About
+## About:
 
-- creator [Jugendgruppe](https://jugendgruppe.cccgoe.de/)
+- Creator  [Jugendgruppe](https://jugendgruppe.cccgoe.de/) CCCGOE
