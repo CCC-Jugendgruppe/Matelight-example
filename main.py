@@ -53,7 +53,14 @@ time.sleep(2)
 disp.clear()
 
 # This draws a point with polar Coordinates.
-draw.polarPoint(disp, 7, 3, 3, 4*2*np.pi/36)
+draw.polarPoint(disp, 7, 3, 3, 4*2*np.pi/36, draw.magenta)
+disp.show()
+time.sleep(2)
+disp.clear()
+
+
+# Draws a line with defined start- and endpoint, given as x-start, x-end, y-start, y-end.
+draw.Line(disp, 14, 10, 14, 7, draw.skyblue)
 disp.show()
 time.sleep(10)
 disp.clear()
