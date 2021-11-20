@@ -27,14 +27,14 @@ disp.clear()
 # You can also draw a full row at once, where the first argument
 # is the Matelight-Display, the second the Y-Coordinate and the last
 # the color to paint the row in.
-draw.row(disp, 3, green)
+draw.row(disp, 3, draw.green)
 
 disp.show()
 time.sleep(2)
 disp.clear()
 
 # Same as above, except that the 2nd argument provides the X-Coordinate.
-draw.col(disp, 4, orange)
+draw.col(disp, 4, draw.orange)
 
 disp.show()
 time.sleep(2)
