@@ -1,0 +1,4 @@
+[submodule "ml_simulator"]
+	path = ml_simulator
+	url = https://git.cccgoe.de/jugendgruppe/ml_simulator.git
+	branch = master
