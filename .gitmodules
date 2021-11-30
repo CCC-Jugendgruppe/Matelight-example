@@ -3,6 +3,6 @@
 	url = https://git.cccgoe.de/jugendgruppe/ml_simulator.git
 	branch = master
 [submodule "matelight"]
-    path = matelight
-    url = https://git.cccgoe.de/jugendgruppe/matelight.git
+	path = matelight
+	url = https://git.cccgoe.de/jugendgruppe/matelight
     branch = master
