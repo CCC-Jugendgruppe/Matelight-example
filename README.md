@@ -15,4 +15,4 @@ To run you effekt on the matelight, you have to submit it to this repo via a pul
 
 ## About:
 
-- Creator  [Jugendgruppe](https://jugendgruppe.cccgoe.de/) CCCGOE
+- Creator:  [Jugendgruppe](https://jugendgruppe.cccgoe.de/) CCCGOE
