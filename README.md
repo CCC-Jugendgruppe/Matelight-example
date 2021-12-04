@@ -8,7 +8,7 @@ first you need to clone this repo like this, and install some packages
 - install tk `apt install python-tk`
 - install numpy `pip install numpy`
 
-than you can start building your own effects. We have include a sample script in which we will show you how this work
+than you can start building your own effects. We have include a sample script in which we will show you how this work.
 
 ## Run your Effect
 To run you effekt on the matelight, you have to submit it to this repo via a pull request, which will then be included as soon as possible.
